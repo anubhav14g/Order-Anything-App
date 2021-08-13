@@ -1,5 +1,5 @@
 const router = require("express").Router()
-const Order = require("../models/Order");
+const Order = require("../models/order");
 
 router.post('/place/:customer_id',async (req,res)=>{
     const obj={

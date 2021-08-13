@@ -1,7 +1,7 @@
 const router = require("express").Router()
 const Customer = require("../models/customer");
 const Delivery_Person = require("../models/delivery_person");
-const Admin = require("../models/Admin");
+const Admin = require("../models/admin");
 const jwt = require('jsonwebtoken');
 
 router.post("/register/customer",async (req,res)=>{
